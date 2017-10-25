@@ -27,7 +27,6 @@ export default class AwesomeProject extends Component {
   render() {
     return (
       <TabBarIOS
-      // unselectedTintColor="yellow"
        tintColor="white"
        barTintColor="darkslateblue"
       >
@@ -84,7 +83,7 @@ export default class AwesomeProject extends Component {
         style={{flex: 1}}
         />
         {/* <Account></Account> */}
-      </TabBarIOS.Item>
+      </TabBarIOS.Item
     </TabBarIOS>
         );
   }
